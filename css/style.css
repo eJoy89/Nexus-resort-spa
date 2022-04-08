@@ -594,7 +594,7 @@ input::-webkit-inner-spin-button {
 }
 
 .menu-box2{
-  width:185px;
+  width:200px;
 }
 
 .menu-box3{
@@ -1280,7 +1280,8 @@ input::-webkit-inner-spin-button {
 
   .section-wrap .section-box{
     width: 90%;
-    height: 450px;
+    /* height: 450px; */
+    height: auto;
     display: inline-block;
     margin: 0 0 45px 0;
     left: 50%;
