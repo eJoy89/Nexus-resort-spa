@@ -1364,7 +1364,7 @@ input::-webkit-inner-spin-button {
   .tabs{
     display: block;
     position: relative;
-    height: 600px;
+    height: 650px;
   }
 
   .tabs #tab1{
