@@ -278,11 +278,6 @@ input::-webkit-inner-spin-button {
 
 /* 소개 페이지 */
 
-.about .container{
-  height: 100vh;
-}
-
-
 /* 로고 */
 
 .logo-top {
@@ -326,6 +321,9 @@ input::-webkit-inner-spin-button {
 .int-txt {
   width: 90%;
   height: 200px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -383,7 +381,6 @@ input::-webkit-inner-spin-button {
 /* 스페이스 */
 
 .space .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -504,11 +501,6 @@ input::-webkit-inner-spin-button {
 
 /* 홀리데이 */
 
-.holiday .container{
-  height: 100vh;
-}
-
-
 .h-menu li {
   color: #fff;
   font-size: 2.5rem;
@@ -606,7 +598,7 @@ input::-webkit-inner-spin-button {
 }
 
 .menu-box2{
-  width:200px;
+  width:185px;
 }
 
 .menu-box3{
@@ -626,11 +618,10 @@ input::-webkit-inner-spin-button {
 
 .sub-menu {
   display: none;
-  width: 420px;
 }
 
 .sub-menu a {
-  
+  width: 420px;
   display: block;
   text-align: start;
   box-sizing: border-box;
@@ -640,9 +631,6 @@ input::-webkit-inner-spin-button {
 }
 
 /* 마지막 페이지 */
-.see-you .container{
-  height: 100vh;
-}
 
 
 .video {
@@ -798,26 +786,7 @@ input::-webkit-inner-spin-button {
     width: 80%;
   }
 
-  /* 홀리데이 */
-  .holiday .container{
-    height: auto;
-  }
-
-  .tabs{
-    height: 800px;
-  }
-
-
-
-
   /* 마지막 섹션 */
-  .see-you .container{
-    height: auto;
-  }
-
-  .video{
-    height: 800px;
-  }
 
   .sns a {
     width: 35px;
@@ -848,14 +817,13 @@ input::-webkit-inner-spin-button {
   }
 
   nav .menu {
-    padding: 60px 0;
     height: 100%;
     line-height: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #232323;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .icon-box {
@@ -933,6 +901,10 @@ input::-webkit-inner-spin-button {
     color: #fff;
     font-family: "Runalto";
     cursor: pointer;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 700%); */
     transition: 0.7s;
   }
 
@@ -946,7 +918,6 @@ input::-webkit-inner-spin-button {
 
   .mask {
     height: calc(100% - 80px);
-    /* height: 100%; */
   }
 
   /* 모달창 */
@@ -962,11 +933,12 @@ input::-webkit-inner-spin-button {
 
   .modal {
     width: 700px;
-    height: 280px;
+    height: 250px;
     background-color: #232323;
     border-radius: 10px;
     display: inline-block;
     outline: none;
+    /* display: none; */
     justify-content: center;
     align-items: center;
     z-index: 99999;
@@ -994,11 +966,7 @@ input::-webkit-inner-spin-button {
 
   .modal li {
     display: inline-block;
-    box-sizing: border-box;
     margin-right: 20px;
-    width: 130px;
-    height: 45px;
-    
   }
 
   .modal li:last-child {
@@ -1006,27 +974,21 @@ input::-webkit-inner-spin-button {
   }
 
   .modal li div {
-    width: 100%;
     color: #fff;
   }
 
   .m-check-in,
   .m-check-out {
-    width: 100%;
+    width: 130px;
     height: 25px;
     font-family: "Runalto";
-    display: inline-block;
-    box-sizing: border-box;
   }
 
   .m-rooms,
   .m-guests {
-    width: 100%;
+    width: 130px;
     height: 25px;
     font-family: "Runalto";
-    display: inline-block;
-    box-sizing: border-box;
-
   }
 
   .room-guest {
@@ -1059,7 +1021,6 @@ input::-webkit-inner-spin-button {
 
   .modal-btn button {
     background-color: #fff;
-    color: black;
     border: none;
     border-radius: 5px;
     width: 130px;
@@ -1079,6 +1040,7 @@ input::-webkit-inner-spin-button {
   .h-menu {
     display: flex;
     width: 100%;
+    height: 250px;
     padding-top: 30px;
   }
 
@@ -1098,6 +1060,7 @@ input::-webkit-inner-spin-button {
   }
 
   .tab-inner {
+    height: 850px;
     display: block;
     flex-direction: column;
   }
@@ -1108,7 +1071,7 @@ input::-webkit-inner-spin-button {
 
   .tabs {
     width: 100%;
-    height: 800px;
+    height: calc(100% - 250px);
     margin-right: 0;
     justify-content: center;
   }
@@ -1117,11 +1080,6 @@ input::-webkit-inner-spin-button {
     width: 65%;
     height: 60%;
     border: 2px solid #a49371;
-  }
-
-
-  #tab1{
-    height: 80%;
   }
 
 }
@@ -1151,12 +1109,8 @@ input::-webkit-inner-spin-button {
 
   .section-wrap .section-box{
     width: 50%;
-    height: auto;
-    margin-bottom: 30px;
-  }
-
-  .section-box .space-img{
-    height: 250px;
+    height: calc(50% - 40px);
+    margin-right: 40px;
   }
 
   .nature a img{
@@ -1229,20 +1183,12 @@ input::-webkit-inner-spin-button {
   }
 
 
-  .int-txt h3{
-    font-size: 2rem;
-  }
-
-  .space-top h2{
-    font-size: 2rem;
-  }
-
-
   /* 스페이스 */
 
   .space-top{
     height: auto;
   }
+
 
 
 
@@ -1257,9 +1203,9 @@ input::-webkit-inner-spin-button {
   }
 
   .footer-l-l {
-    margin: 0 0 10px 0;
-    /* top: 50%;
-    transform: translateY(-50%); */
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .footer-l-l p {
@@ -1286,21 +1232,12 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 760px){
   
-
-  .banner .container{
-    height: auto;
-  }
-
-  .mask{
-    height: 840px;
-  }
-  
   /* .check-avaliable{
     top: 75%;
   } */
 
   .about .container{
-    height: 800px;
+    height: 80vh;
   }
 
 
@@ -1321,7 +1258,7 @@ input::-webkit-inner-spin-button {
   }
 
   .space .container{
-    /* height: 100%; */
+    height: 100%;
     display: block;
   }
 
@@ -1344,12 +1281,11 @@ input::-webkit-inner-spin-button {
 
   .section-wrap .section-box{
     width: 90%;
-    height: auto;
+    height: 450px;
     display: inline-block;
     margin: 0 0 45px 0;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 60px;
   }
 
   .space-top h2{
@@ -1374,31 +1310,24 @@ input::-webkit-inner-spin-button {
   .tabs{
     display: block;
     position: relative;
-    height: 650px;
   }
 
   .tabs #tab1{
     width: 80%;
-    height: 500px;
+    height: 550px;
     display: inline-block;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     position: absolute;
+    margin-top: 60px;
 }
 
-
-.footer{
-  height: auto;
 }
 
-.footer-l{
-  height: 200px;
-}
+/* @media (max-width: 500px){
 
-.footer .footer-r{
-  height: 200px;
-}
+
 
 
 }
+ */
