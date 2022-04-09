@@ -996,6 +996,7 @@ input::-webkit-inner-spin-button {
     display: inline-block;
     margin-right: 20px;
     width: 134px;
+    
   }
 
   .modal li:last-child {
@@ -1018,6 +1019,7 @@ input::-webkit-inner-spin-button {
     width: 100%;
     height: 25px;
     font-family: "Runalto";
+    box-sizing: border-box;
   }
 
   .room-guest {
