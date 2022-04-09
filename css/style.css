@@ -932,7 +932,7 @@ input::-webkit-inner-spin-button {
   }
 
   .modal {
-    width: 700px;
+    width: 650px;
     height: 250px;
     background-color: #232323;
     border-radius: 10px;
