@@ -1020,6 +1020,8 @@ input::-webkit-inner-spin-button {
     height: 25px;
     font-family: "Runalto";
     box-sizing: border-box;
+    display: inline-block;
+
   }
 
   .room-guest {
