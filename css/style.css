@@ -1023,6 +1023,7 @@ input::-webkit-inner-spin-button {
 
   .modal-btn button {
     background-color: #fff;
+    color: black;
     border: none;
     border-radius: 5px;
     width: 130px;
