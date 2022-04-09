@@ -148,8 +148,8 @@
                 <div class="content-box">
                     <table class="check-box">
                         <tr>
-                            <td><input type="date" placeholder="Check-in" class="reservation-box" pattern=”\d*”></td>
-                            <td><input type="date" placeholder="Check-out" class="reservation-box" pattern=”\d*”></td>
+                            <td><input type="date" placeholder="Check-in" class="reservation-box" ></td>
+                            <td><input type="date" placeholder="Check-out" class="reservation-box"></td>
                             <td><select name="rooms" id="room">
                                 <option value="r_s">Room(s)</option>
                                 <option value="r1">1</option>
@@ -184,21 +184,21 @@
                                 <div class="check-in-out">
                                     <li>
                                         <div>check in</div>
-                                        <input type="date" class="m-check-in" placeholder="Check in">
+                                        <input type="date" class="m-check-in" placeholder="Check in" pattern=”\d*”>
                                     </li>
                                     <li>
                                         <div>check out</div>
-                                        <input type="date" class="m-check-out" placeholder="Check out">
+                                        <input type="date" class="m-check-out" placeholder="Check out" pattern=”\d*”>
                                     </li>
                                     </div>
                                 <div class="room-guest">
                                     <li>
                                         <div>Room(s)</div>
-                                        <input type="number" class="m-rooms" placeholder="Room(s)">
+                                        <input type="number" class="m-rooms" placeholder="Room(s)" pattern=”\d*”>
                                     </li>
                                     <li>
                                         <div>Guest(s)</div>
-                                        <input type="number" class="m-guests" placeholder="Guest(s)">
+                                        <input type="number" class="m-guests" placeholder="Guest(s)" pattern=”\d*”>
                                     </li>
                                 </div>
                                 <div class="modal-btn">
