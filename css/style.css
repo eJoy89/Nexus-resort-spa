@@ -1285,6 +1285,15 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 760px){
   
+
+  .banner .container{
+    height: auto;
+  }
+
+  .mask{
+    height: 840px;
+  }
+  
   /* .check-avaliable{
     top: 75%;
   } */
