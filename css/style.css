@@ -1247,9 +1247,9 @@ input::-webkit-inner-spin-button {
   }
 
   .footer-l-l {
-    margin: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    margin: 0 0 10px 0;
+    /* top: 50%;
+    transform: translateY(-50%); */
   }
 
   .footer-l-l p {
