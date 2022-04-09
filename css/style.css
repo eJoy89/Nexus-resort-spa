@@ -1009,7 +1009,7 @@ input::-webkit-inner-spin-button {
 
   .m-check-in,
   .m-check-out {
-    width: 130px;
+    width: 100%;
     height: 25px;
     font-family: "Runalto";
     box-sizing: border-box;
