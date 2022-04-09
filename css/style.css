@@ -1015,7 +1015,7 @@ input::-webkit-inner-spin-button {
 
   .m-rooms,
   .m-guests {
-    width: 130px;
+    width: 100%;
     height: 25px;
     font-family: "Runalto";
   }
