@@ -994,6 +994,7 @@ input::-webkit-inner-spin-button {
 
   .modal li {
     display: inline-block;
+    box-sizing: border-box;
     margin-right: 20px;
     width: 134px;
     
