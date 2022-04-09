@@ -1012,6 +1012,7 @@ input::-webkit-inner-spin-button {
     width: 130px;
     height: 25px;
     font-family: "Runalto";
+    box-sizing: border-box;
   }
 
   .m-rooms,
@@ -1020,7 +1021,6 @@ input::-webkit-inner-spin-button {
     height: 25px;
     font-family: "Runalto";
     box-sizing: border-box;
-    display: inline-block;
 
   }
 
