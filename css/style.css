@@ -31,6 +31,7 @@
 /* 베너페이지 */
 
 .banner .container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -277,6 +278,11 @@ input::-webkit-inner-spin-button {
 
 /* 소개 페이지 */
 
+.about .container{
+  height: 100vh;
+}
+
+
 /* 로고 */
 
 .logo-top {
@@ -377,6 +383,7 @@ input::-webkit-inner-spin-button {
 /* 스페이스 */
 
 .space .container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -496,6 +503,11 @@ input::-webkit-inner-spin-button {
 }
 
 /* 홀리데이 */
+
+.holiday .container{
+  height: 100vh;
+}
+
 
 .h-menu li {
   color: #fff;
@@ -628,6 +640,10 @@ input::-webkit-inner-spin-button {
 }
 
 /* 마지막 페이지 */
+.see-you .container{
+  height: 100vh;
+}
+
 
 .video {
   height: calc(100% - 185px);
@@ -782,7 +798,26 @@ input::-webkit-inner-spin-button {
     width: 80%;
   }
 
+  /* 홀리데이 */
+  .holiday .container{
+    height: auto;
+  }
+
+  .tabs{
+    height: 800px;
+  }
+
+
+
+
   /* 마지막 섹션 */
+  .see-you .container{
+    height: auto;
+  }
+
+  .video{
+    height: 800px;
+  }
 
   .sns a {
     width: 35px;
@@ -813,13 +848,14 @@ input::-webkit-inner-spin-button {
   }
 
   nav .menu {
+    padding: 60px 0;
     height: 100%;
     line-height: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #232323;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .icon-box {
@@ -897,10 +933,6 @@ input::-webkit-inner-spin-button {
     color: #fff;
     font-family: "Runalto";
     cursor: pointer;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 700%); */
     transition: 0.7s;
   }
 
@@ -934,7 +966,6 @@ input::-webkit-inner-spin-button {
     border-radius: 10px;
     display: inline-block;
     outline: none;
-    /* display: none; */
     justify-content: center;
     align-items: center;
     z-index: 99999;
@@ -1017,6 +1048,7 @@ input::-webkit-inner-spin-button {
 
   .modal-btn button {
     background-color: #fff;
+    color: black;
     border: none;
     border-radius: 5px;
     width: 130px;
@@ -1036,7 +1068,6 @@ input::-webkit-inner-spin-button {
   .h-menu {
     display: flex;
     width: 100%;
-    height: 250px;
     padding-top: 30px;
   }
 
@@ -1066,7 +1097,7 @@ input::-webkit-inner-spin-button {
 
   .tabs {
     width: 100%;
-    height: calc(100% - 250px);
+    height: 800px;
     margin-right: 0;
     justify-content: center;
   }
@@ -1075,6 +1106,11 @@ input::-webkit-inner-spin-button {
     width: 65%;
     height: 60%;
     border: 2px solid #a49371;
+  }
+
+
+  #tab1{
+    height: 80%;
   }
 
 }
@@ -1236,7 +1272,7 @@ input::-webkit-inner-spin-button {
   } */
 
   .about .container{
-    height: 80vh;
+    height: 800px;
   }
 
 
@@ -1322,5 +1358,6 @@ input::-webkit-inner-spin-button {
     position: absolute;
     margin-top: 60px;
 }
+
 
 }
