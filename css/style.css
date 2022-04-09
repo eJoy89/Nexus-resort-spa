@@ -945,7 +945,8 @@ input::-webkit-inner-spin-button {
   }
 
   .mask {
-    height: calc(100% - 80px);
+    /* height: calc(100% - 80px); */
+    height: 100%;
   }
 
   /* 모달창 */
@@ -1218,12 +1219,20 @@ input::-webkit-inner-spin-button {
   }
 
 
+  .int-txt h3{
+    font-size: 2rem;
+  }
+
+  .space-top h2{
+    font-size: 2rem;
+  }
+
+
   /* 스페이스 */
 
   .space-top{
     height: auto;
   }
-
 
 
 
