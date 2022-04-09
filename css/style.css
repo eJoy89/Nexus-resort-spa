@@ -1316,7 +1316,6 @@ input::-webkit-inner-spin-button {
 
   .section-wrap .section-box{
     width: 90%;
-    /* height: 450px; */
     height: auto;
     display: inline-block;
     margin: 0 0 45px 0;
@@ -1347,16 +1346,30 @@ input::-webkit-inner-spin-button {
   .tabs{
     display: block;
     position: relative;
+    height: 600px;
   }
 
   .tabs #tab1{
     width: 80%;
-    height: 550px;
+    height: 500px;
     display: inline-block;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     position: absolute;
-    margin-top: 60px;
+}
+
+
+.footer{
+  height: auto;
+}
+
+.footer-l{
+  height: 200px;
+}
+
+.footer .footer-r{
+  height: 200px;
 }
 
 
