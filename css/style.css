@@ -995,6 +995,7 @@ input::-webkit-inner-spin-button {
   .modal li {
     display: inline-block;
     margin-right: 20px;
+    width: 134px;
   }
 
   .modal li:last-child {
@@ -1302,7 +1303,7 @@ input::-webkit-inner-spin-button {
   }
 
   .space .container{
-    height: 100%;
+    /* height: 100%; */
     display: block;
   }
 
