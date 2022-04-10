@@ -1297,6 +1297,10 @@ input::-webkit-inner-spin-button {
 
 
 
+  .holiday .container{
+    height: auto;
+  }
+
 
   .h-menu{
     height: auto;
@@ -1323,7 +1327,16 @@ input::-webkit-inner-spin-button {
     transform: translateX(-50%);
     position: absolute;
     margin-top: 60px;
-}
+  }
+
+  .see-you .container{
+    height: auto;
+  }
+
+  .video iframe{
+    height: 700px;
+  }
+
 
 }
 
