@@ -1362,4 +1362,7 @@ input::-webkit-inner-spin-button {
   .space-top h2{
     font-size: 2rem;
   }
+  .h-menu .perfect h2{
+    font-size: 2rem;
+  }
 }
