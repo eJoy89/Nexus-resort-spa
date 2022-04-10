@@ -1334,6 +1334,8 @@ input::-webkit-inner-spin-button {
   .tabs{
     display: block;
     position: relative;
+    height: 600px;
+    margin-bottom: 60px;
   }
 
 
@@ -1344,6 +1346,5 @@ input::-webkit-inner-spin-button {
   .video iframe{
     height: 700px;
   }
-
 
 }
