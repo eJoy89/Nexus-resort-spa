@@ -1103,7 +1103,7 @@ input::-webkit-inner-spin-button {
   }
 
   .tabs #tab1 {
-    width: 70%;
+    width: 80%;
     height: 75%;
     border: 2px solid #a49371;
     position: absolute;
@@ -1212,7 +1212,11 @@ input::-webkit-inner-spin-button {
   }
 
 
+
   /* 스페이스 */
+
+
+  
 
   .space-top{
     height: auto;
@@ -1303,7 +1307,7 @@ input::-webkit-inner-spin-button {
     width: 90%;
     height: 450px;
     display: inline-block;
-    margin: 0 0 45px 0;
+    margin: 0 0 60px 0;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1347,8 +1351,15 @@ input::-webkit-inner-spin-button {
     height: 700px;
   }
 
-  h2,
-  h3{
-    font-size: 2.2rem;
+  
+}
+
+@media (max-width: 500px){
+  .int-txt h3{
+    font-size: 1.9rem;
+  }
+  
+  .space-top h2{
+    font-size: 2rem;
   }
 }
