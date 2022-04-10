@@ -786,6 +786,10 @@ input::-webkit-inner-spin-button {
     width: 80%;
   }
 
+ 
+
+
+
   /* 마지막 섹션 */
 
   .sns a {
@@ -1039,20 +1043,31 @@ input::-webkit-inner-spin-button {
     width: 90%;
   }
 
+  .tab-inner {
+    height: auto;
+    display: block;
+  }
 
   .h-menu {
-    display: flex;
+    /* display: flex;
     width: 100%;
     height: 250px;
-    padding-top: 30px;
+    margin-top: 30px; */
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
   }
 
   .h-menu .perfect {
+    height: auto;
     margin: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
+    display: block;
+    text-align: center;
   }
 
   .h-menu .perfect p{
@@ -1061,28 +1076,40 @@ input::-webkit-inner-spin-button {
     font-size: 1.1rem;
     line-height: 25px;
   }
-
-  .tab-inner {
-    height: 850px;
-    display: block;
-    flex-direction: column;
+  .h-menu .perfect h2{
+    margin-bottom: 0;
   }
+
+  
 
   .menu-box-h {
     display: none;
   }
 
-  .tabs {
-    width: 100%;
-    height: calc(100% - 250px);
-    margin-right: 0;
-    justify-content: center;
+  .holiday .container{
+    height: auto;
   }
 
-  .tabs .tab-box {
+
+  .tabs {
+    width: 100%;
+    height: 800px;
+    display: block;
+    position: relative;
+    /* width: 100%;
+    height: calc(100% - 250px);
+    margin-right: 0;
+    justify-content: center; */
+  }
+
+  .tabs #tab1 {
     width: 65%;
-    height: 60%;
+    height: 75%;
     border: 2px solid #a49371;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 }
@@ -1137,7 +1164,7 @@ input::-webkit-inner-spin-button {
   .h-menu{
     height: auto;
     display: block;
-    padding-top: 60px;
+    margin-top: 60px;
   }
 
   .h-menu .perfect{
@@ -1175,11 +1202,10 @@ input::-webkit-inner-spin-button {
   }
 }
 
-/* 759 */
-
-@media (max-width: 759px) {
 
 
+@media (max-width: 760px){
+  
   .heaven p{
     font-size: 3rem;
     line-height: 4rem;
@@ -1191,8 +1217,6 @@ input::-webkit-inner-spin-button {
   .space-top{
     height: auto;
   }
-
-
 
 
 
@@ -1230,14 +1254,7 @@ input::-webkit-inner-spin-button {
   .sns .twitter {
     display: none;
   }
-}
 
-
-@media (max-width: 760px){
-  
-  /* .check-avaliable{
-    top: 75%;
-  } */
 
   .about .container{
     height: 80vh;
@@ -1319,15 +1336,6 @@ input::-webkit-inner-spin-button {
     position: relative;
   }
 
-  .tabs #tab1{
-    width: 80%;
-    height: 550px;
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    margin-top: 60px;
-  }
 
   .see-you .container{
     height: auto;
@@ -1339,11 +1347,3 @@ input::-webkit-inner-spin-button {
 
 
 }
-
-/* @media (max-width: 500px){
-
-
-
-
-}
- */
