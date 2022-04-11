@@ -745,6 +745,10 @@ input::-webkit-inner-spin-button {
   color: #fff;
 }
 
+.sns .instagram{
+  line-height: 33px;
+}
+
 /* 반응형 */
 
 /* 1400 */
@@ -1032,7 +1036,7 @@ input::-webkit-inner-spin-button {
     border: none;
     border-radius: 5px;
     width: 130px;
-    height: 20px;
+    height: 25px;
     font-family: "Runalto";
     cursor: pointer;
   }
