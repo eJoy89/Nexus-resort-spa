@@ -502,6 +502,7 @@ input::-webkit-inner-spin-button {
 /* 홀리데이 */
 
 .h-menu li {
+  width: calc(100% - 80px);
   color: #fff;
   font-size: 2.5rem;
   line-height: 3.5rem;
