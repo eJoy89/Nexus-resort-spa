@@ -2,6 +2,14 @@ $(document).ready(function(){
     media();
     AOS.init();
 
+
+    $('#go_top').on('click', function() {
+        $('html, body').animate({scrollTop: 0}, 'slow');
+    })
+
+
+
+
     function media (){
         var ww = $(window).width();
         if(ww > 1400){
